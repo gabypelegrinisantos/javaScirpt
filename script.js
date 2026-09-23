@@ -18,5 +18,6 @@ function somarNumeros(){
 function mudarformatacao(){
     let resultado = document.getElementById("resultado")
     let nome = prompt("Informe o seu nome:")
-    resultado.textContent = "Bom dia"
+    resultado.textContent = "Bom dia! " + nome
+    resultado.style.background = "pink"
 }
